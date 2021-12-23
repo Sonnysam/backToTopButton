@@ -1,0 +1,48 @@
+:root{
+    --color: #ff6734;
+    --white: #fff;
+  --black: #1c2b2d;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+  --twitter:  hsl(207, 93%, 46%);
+  --fb:hsl(221, 89%, 41%);
+  --border: hsl(240, 65%, 54%);
+  --active: hsl(240, 82%, 57%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+  }
+body {
+    font-family: 'Poppins', sans-serif;
+}
+p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+/* FLOATING BUTTON*/
+#btnScroll{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  z-index: 1;
+  background: var(--border);
+  color: #fff;
+  border: 1px solid var(--border);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  outline: none;
+  cursor: pointer;
+}
+#btnScroll:active{
+  background: var(--active);
+}
